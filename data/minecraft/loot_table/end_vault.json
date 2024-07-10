@@ -5,16 +5,33 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:item_frame"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+          "name": "minecraft:elytra"
+        },
         {
           "type": "minecraft:item",
-          "name": "minecraft:elytra"
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
         }
       ]
     }
